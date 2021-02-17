@@ -1,0 +1,2 @@
+[1014/130906.565:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\disigner\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\ee7e1ac9-4548-4aca-966c-9984907f2e67: Системе не удается найти указанный путь. (0x3)
+[1014/130906.565:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)

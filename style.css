@@ -1,0 +1,543 @@
+body {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    bottom: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'PlumbC', arial, sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    text-shadow: 0 0 10px black;
+    text-transform: uppercase;
+    color: #dac285;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'PlumbC', arial, sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    text-shadow: 0 0 10px black;
+    text-transform: uppercase;
+    color: #dac285;
+    padding-top: 40px;
+}
+
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header {
+    background: url("img/Фон.jpg") no-repeat;
+    background-position: center top;
+    width: 100%;
+    height: 780px;
+    background-size: cover;
+    position: relative;
+}
+
+.container-big {
+    max-width: 1324px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*.header::after {
+    content: "";
+    background-image: url("img/Телек.png");
+    background-repeat: no-repeat;
+    background-size: 1324px 771px;
+    background-position: inherit;
+    position: absolute;
+    /*margin: 0 auto;
+    padding: 0 auto;
+}*/
+
+.header .container-big .tv {
+    width: 1324px;
+    height: 771px;
+    position: absolute;
+}
+
+.header-top {
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    height: 180px;
+    color: white;
+    position: relative;
+}
+
+.header .header-top .logo-contact {
+    /*margin-top: 35px;*/
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.logo img {
+    margin-top: 35px;
+    max-width: 250px;
+    height: auto;
+    float: left;
+}
+
+.contact {
+    margin-top: 40px;
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header .header-menu {
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header .header-menu li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header .header-menu li a{
+    color: white;
+    text-decoration: none;
+}
+.header .header-menu li a:hover {
+    color: #00b9d3;
+}
+
+.header .header-menu li:last-child {
+    margin-right: 0;
+}
+
+.top-screen-text {
+    width: 600px;
+    float: left;
+    color: white;
+    font-family: 'PlumbC', Arial, sans-serif;
+    font-size: 40px;
+    text-shadow: 0 0 10px black;
+    line-height: 40px;
+}
+
+.top-screen-text .selected {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #00b9d3;
+}
+
+.top-screen-text .btn {
+    padding: 2% 4%;
+    text-transform: uppercase;
+    background: url("img/Фон.jpg");
+    font-weight: bold;
+    color: white;
+    text-shadow: none;
+    box-shadow: 0 0 10px black;
+    font-size: 28px;
+    border: none;
+    border-radius: 29px;
+}
+
+.top-screen-text .btn:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.about, .media {
+    background: url("img/декрево_фон.jpg") round;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 650px;
+    position: relative;
+    padding-top: 30px;
+    display: block;
+}
+
+.about::after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    /*position: absolute;
+    top: 0px;
+    left: 0px;*/
+    background: url("img/дым.png") no-repeat;
+    width: auto;
+    height: 650px;
+}
+
+.about .about-text {
+    color: white;
+    width: 780px;
+    font-size: 40px;
+    font-family: 'PlumbC', Arial, Helvetica, sans-serif;
+    float: left;
+    position: absolute;
+    text-shadow: 0 0 10px black;
+    
+}
+
+.about .about-text-selected {
+    color: #fff343;
+    text-transform: uppercase;
+}
+
+.about .about-text img {
+    width: 800px;
+    height: auto;
+    position: absolute;
+    right: -700px;
+    top: -40px;
+}
+
+.ads {
+    margin: 0;
+    padding: 0;
+    margin-top: -40px;
+    background: url("img/поле.jpg") no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.ads ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    color: white;
+    font-family: 'PlumbC', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+
+.ads ul li {
+    list-style: none;
+    display: inline-block;
+    max-width: 290px;
+    vertical-align: bottom;
+    margin-right: 72px;
+}
+
+.ads ul li:last-child {
+    margin-right: 0;
+}
+
+.ads ul li img {
+    margin: 0;
+    padding: 0;
+    height: 160px;
+    margin-bottom: 30px;
+}
+
+.ads ul li p {
+    background: url("img/Фон.jpg") no-repeat;
+    width: 221px;
+    height: 83px;
+    border-radius: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.ads .btn-red {
+    padding: 1% 2%;
+    text-transform: uppercase;
+    background: url("img/Фон.jpg");
+    filter: hue-rotate(153deg);
+    font-weight: bold;
+    color: white;
+    /*text-shadow: none;*/
+    box-shadow: 0 0 10px black;
+    font-size: 28px;
+    border: none;
+    border-radius: 29px;
+    /*margin-bottom: 30px;*/
+}
+
+
+
+.ads .btn-red:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.ads .ads-text {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dusha V5', Arial, Helvetica, sans-serif;
+    font-size: 62px;
+    text-shadow: 0 0 10px black;
+    color: white;
+    line-height: 58px;
+    margin-top: 30px;
+}
+
+.media {
+
+    color: white;
+    font-family: 'PlumbC', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 46px;
+    text-align: center;
+}
+.media h2 {
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.media .media-name {
+    margin-bottom: 20px;
+}
+
+.media-1 {
+    float: left;
+    width: 576px;
+}
+
+.media-2 {
+    float: right;
+    width: 576px;
+    height: 323px;
+}
+
+.media img {
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.map {
+    position: relative;
+}
+
+.map .imgs {
+    text-align: center;
+}
+
+.map .imgs img {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 250px;
+    /*height: 222px;*/
+    bottom: 65px;
+    display: inline-block;
+    text-align: center;
+    margin-left: -46px;
+}
+.map .imgs .img1 {
+    margin-left: 0;
+}
+
+.reviews {
+    background-color: #2a2a2a;
+    color: white;
+    height: 600px;
+    margin-top: -100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.reviews .your-reviews {
+    width: 285px;
+    float: left;
+    margin-top: 48px;
+}
+
+.reviews .your-reviews p {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.reviews .your-reviews input {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.reviews input[type="text"] {
+    height: 33px;
+    width: 100%;
+}
+
+.reviews textarea {
+    height: 200px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.reviews input[type="button"] {
+    text-transform: uppercase;
+    color: white;
+    font-family: 'PlumbC', Arial, Helvetica, sans-serif;
+    background-color: #505050;
+    padding: 10px 20px;
+    border: none;
+}
+
+.reviews input[type="button"]:hover {
+    color:#808080;
+    cursor: pointer;
+}
+
+.reviews .news {
+    width: 360px;
+    float: left;
+    margin-top: 48px;
+    margin-left: 84px;
+}
+
+.reviews .news .new-item {
+    position: relative;
+}
+
+.reviews .news .new-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.reviews .news .new-item a:hover {
+    color: #00b9d3;
+}
+
+.reviews .news img {
+    width: 55px;
+    height: 45px;
+    float: left;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.reviews .news blockquote {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+}
+
+.reviews .news cite {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    color: #747474;
+    font-style: italic;
+    position: relative;
+    bottom: 5px;
+}
+
+.reviews .calendar {
+    width: 370px;
+    float: right;
+    margin-top: 48px;
+}
+
+.reviews .calendar .recent{
+    text-decoration: none;
+    color: white;
+}
+
+.reviews .calendar table {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    padding: 0 auto;
+    border-collapse: collapse;
+}
+
+.reviews .calendar table .na {
+    opacity: 0.3;
+}
+
+.reviews .calendar table a {
+    color: #a36e37;
+    text-decoration: none;
+}
+
+.reviews .calendar table a:hover {
+    color: #00b9d3;
+}
+
+.reviews .calendar table th {
+    border-bottom: 1px solid #4f4f4f;
+    border-top: 1px solid #4f4f4f;
+}
+
+.footer {
+    height: 115px;
+    background-color: #242424;
+    color: white;
+
+}
+
+.footer .copyright {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    line-height: 14px;
+    width: 400px;
+    padding-top: 30px;
+    float: left;
+    width: 50%;
+}
+
+.footer .social {
+    float: right;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    margin-top: 32px;
+}
+
+.footer .social .fb {
+    
+    background: url("img/fb.png") no-repeat 50% 50%;
+    display: inline-block;
+}
+
+.footer .social .inst {
+    
+    background: url("img/ig.png") no-repeat 50% 50%;
+    display: inline-block;
+}
+
+.footer .social .vk {
+    
+    background: url("img/vk.png") no-repeat 50% 50%;
+    display: inline-block;
+}
+
+.footer .social .ok {
+    
+    background: url("img/ok.png") no-repeat 50% 50%;
+    display: inline-block;
+}
+
+.social-btn {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    float: right;
+    position: relative;
+}
